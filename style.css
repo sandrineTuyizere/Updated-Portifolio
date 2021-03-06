@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+    
+
+}
+body{
+    font-family: "Playfair Display",sans-serif;
+}
+a{
+    text-decoration:none;
+    color:whitesmoke;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+/*styling the navigation bar*/
+
+.container{
+    background-color:palevioletred;
+    color:white;
+    height: 150px;
+    margin: auto;
+}
+nav h2{
+    float:left;
+    padding: 0 20px;
+    line-height: 100px;
+    font-weight: 900;
+    font-size: 40px;
+    text-transform: uppercase;
+}
+nav ul{
+    float:right;
+}
+ nav ul li{
+      padding: 0 20px;
+     line-height: 100px;
+     display: inline-block;
+ }
+ a:hover{
+     color:paleturquoise;
+     background-color: white;
+ }
+ /* styling the home section*/
+ .home{
+     background-image: linear-gradient(rgba(25,43,76,0.8),rgba(76, 25, 72, 0.8)), url("/home/sandrine/Downloads/sando.jpeg");
+     background-size:cover;
+     background-repeat: no-repeat;
+     height: 100vh;
+ }
+ .hello{
+     width: 50%;
+     margin: auto;
+     text-align: center;
+     transform: translateY(30vh);
+     
+     
+ }
+ .hello h1{
+     font-size: 55px;
+     font-weight: bolder;
+     text-shadow: 1px 1px whitesmoke;
+     color: #00334d;
+     }
+     
+    
+     
+    .hello p{
+        font-size:20px;
+        padding:20px;
+        font-weight: bold;
+        color: white;
+    }
+    /*this is the styling of about section*/
+    
+    
+    .mypic{
+        height: 500px;
+        
+        border: 8px solid #00334d;
+        border-radius: 80%;
+        float: right;
+        
+        
+        
+        
+    }
+    .aboutme{
+        color: #00334d;
+        float: left;
+        
+        
+        transform: translateY(20vh);
+        
+        
+        
+    }
+    .aboutme h2{
+        font-weight: 900;
+        text-transform: uppercase;
+        font-size: 60px;
+        padding: 40px;
+    }
+.about p{
+    font-weight: 600;
+    padding: 40px;
+}
+.learnmore{
+    background:orange;
+    color:black;
+         
+}

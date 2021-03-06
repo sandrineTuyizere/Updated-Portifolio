@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+
+}
+body{
+    font-family: "Playfair Display",sans-serif;
+}
+a{
+    text-decoration:none;
+    color:palegreen;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+/*styling the navigation bar*/
+
+.container{
+    background-color:palevioletred;
+    color:white;
+    height: 100px;
+    margin: auto;
+    
+}
+nav h2{
+    float:left;
+    padding: 0 20px;
+    line-height: 100px;
+    font-weight: 900;
+    font-size: 40px;
+    text-transform: uppercase;
+}
+nav ul{
+    float:right;
+}
+ nav ul li{
+      padding: 0 20px;
+     line-height: 100px;
+     display: inline-block;
+ }
+ a:hover{
+     color:#00334d;
+     background-color: white;
+ }
+ /*styling the about section*/
+ 
+ .about{
+     background-image: url("/home/sandrine/Desktop/cover.jpeg");
+     background-size: cover;
+     background-repeat: no-repeat;
+     height: 100vh;
+    
+    
+ }
+ .about h1{
+     color:black;
+     text-shadow: 1px 1px white;
+
+     font-weight: bolder;
+     font-size:60px;
+     text-align:center;
+ }
+ .about p{
+     color:white;
+     font-size:20px;
+     padding:30px;
+ }
+ .about h3{
+     color: black;
+     font-size:40px;
+     font-weight:bold;
+     padding:30px;
+ }
+ .about ol{
+     color:rgb(0, 0, 0);
+     font-size: 20px;
+     padding:40px;
+ }
+ .aboutcontent{
+     float: left;
+ }
+ img{
+     height:500px;
+     float: right;
+     padding: 0 50px;
+ }
+ .aboutp{
+     background-color:black;
+     padding: 10px;
+     transform: translateY(45kv);
+
+ }
+ .aboutn{
+     background-color:black;
+     padding: 5px;
+ }

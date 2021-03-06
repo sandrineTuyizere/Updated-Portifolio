@@ -1,0 +1,34 @@
+.skills{
+    background-image:linear-gradient(rgba(25,43,76,0.8),rgba(25,43,76,0.8)), url("/home/sandrine/Desktop/background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    text-align: center;
+}
+.askills{
+    
+    width: 50%;
+    
+    transform: translateX(45vh);
+    
+}
+.skills h1{
+    font-size: 60px;
+    text-shadow: 2px 2px white;
+}
+.skills p{
+    color:wheat;
+    
+     font-size:20px;
+     padding:30px;
+     
+}
+.aboutp{
+    background-color:black;
+    padding: 5px;
+
+}
+.aboutn{
+    background-color:black;
+    padding: 5px;
+}

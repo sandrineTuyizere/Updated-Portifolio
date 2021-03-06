@@ -1,0 +1,40 @@
+.hobbies{
+    background-image: linear-gradient(rgba(25,43,76,0.8),rgba(25,43,76,0.8)),url("/home/sandrine/Desktop/background.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+height: 100vh;
+}
+
+
+h1{
+    font-size: 100px;
+    text-shadow: 2px 2px white;
+    text-align: center;
+}
+
+.hobbies ul{
+    color:rgb(0, 0, 0);
+    font-size: 40px;
+    padding:40px;
+}
+
+
+.hobbiesa{
+    font-size: 40px;
+    color: wheat;
+    font-weight: 500;
+    text-align: center;
+}
+.hobby{
+    
+    transform: translateY(15vh);
+}
+.aboutp{
+    background-color:black;
+    padding: 5px;
+
+}
+.aboutn{
+    background-color:black;
+    padding: 5px;
+}
